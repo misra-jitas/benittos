@@ -1,0 +1,33 @@
+/* styles/logos.module.css */
+.list-partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Remove any margin from the ul element */
+}
+
+.list-partners li {
+    margin: 5px; /* Default margin */
+    flex: 1 1 auto; /* Allow the list items to grow */
+    max-width: none; /* Remove any max-width constraints */
+}
+
+.list-partners img {
+    max-width: none; /* Remove the max-width constraint */
+    width: 100%; /* Ensure the image takes up the full width of the li */
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+/* Styles for vertical mobile screens */
+@media (max-width: 480px) and (orientation: portrait) {
+    .list-partners img {
+        width: 100px;  /* Make logos larger */
+    }
+
+    .list-partners li {
+        margin: 2px;  /* Reduce margin */
+    }
+}
