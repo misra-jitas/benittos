@@ -18,7 +18,7 @@ const Footer = () => {
                                 </Link>
                             </div>
                             <div className="col-md-8 col-sm-6 text-center text-md-end">
-                                <span className="color-gray-900 text-heading-6 mr-30 text-mb-sm-20">¿Listo para un paseo por las nubes?</span>
+                                <span className="color-gray-900 text-heading-6 mr-30 text-mb-sm-20">¿Quieres saber mas de nosotros?</span>
                                 <Link href="/page-contact" legacyBehavior>
                                     <a className="btn btn-square">Contacto</a>
                                 </Link>
@@ -31,8 +31,8 @@ const Footer = () => {
    
 
                            {/* <div className="mt-20 text-body-text color-gray-600 mb-20">4517 Washington Ave. Manchester, Kentucky 39495</div>*/}
-                            <div className="mt-20 text-body-text color-gray-600">+52 (664) 112-1423</div>
-                            <div className="text-body-text color-gray-600">hola@sube.cloud</div>
+                            <div className="mt-20 text-body-text color-gray-600">+52 (322) 209-0287</div>
+                            <div className="text-body-text color-gray-600">hola@benittos.com</div>
                         </div>
                         <div class="col-lg-3 width-20 mb-30">
     <h4 class="text-heading-5"><Link href="/" legacyBehavior><a>Inicio</a></Link></h4>
@@ -72,7 +72,7 @@ const Footer = () => {
     </ul>*/}
                         </div>
                         <div class="col-lg-3 width-20 mb-30">
-    <h4 class="text-heading-5"><Link href="servicios-nube" legacyBehavior><a>Servicios</a></Link></h4>
+    <h4 class="text-heading-5"><Link href="servicios-nube" legacyBehavior><a>Menu</a></Link></h4>
     
     </div>
 
@@ -145,7 +145,7 @@ const Footer = () => {
 </ul>*/}
                         
                         <div className="col-lg-3 width-16">
-                            <h4 className="text-heading-5">¿Qué es Cloud?</h4>
+                            <h4 className="text-heading-5">N</h4>
                           {/*}  <ul className="menu-footer mt-20">
                                 <li>
                                     <Link href="/#" legacyBehavior>
@@ -178,7 +178,7 @@ const Footer = () => {
                     <div className="footer-bottom mt-20">
                         <div className="row">
                             <div className="col-md-6">
-                                <span className="color-gray-400 text-body-lead">© Sube.Cloud 2023</span>
+                                <span className="color-gray-400 text-body-lead">© Benittos 2024</span>
                                 <Link href="/page-terms" legacyBehavior>
                                     <a className="text-body-text color-gray-400 ml-50">Privacidad</a>
                                 </Link>

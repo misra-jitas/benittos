@@ -9,7 +9,7 @@ export function HomeBanner2() {
    // It is a good practice to define a fallback to make your
    // application resilient to external errors.
     fallback: {
-      title: '¡optimiza, ahorra y crece!',
+      title: ',not imitate.',
       
     },
   });

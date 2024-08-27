@@ -95,7 +95,7 @@
                 {/* Other cards and content 
                 </div>
             </div>
-            </section>   */}
+            </section>  
            
              <Logos />
             
@@ -228,34 +228,7 @@
                             </div>
                         </div>
                     </section> */}
-                    <section className="section-box pt-140 pb-100">
-        <div className="container">
-            <div className="row">
-                <div className="col-lg-5 mb-40">
-                    <h3 className="text-heading-1">Preguntas frecuentes</h3>
-                    <p className="text-body-text color-gray-600 mt-30">¿Tienes dudas? Consulta nuestras preguntas frecuentes o comunícate con nuestros expertos para obtener ayuda.</p>
-                    <div className="row">
-                        <div className="col-lg-12 mt-50">
-                            <h4 className="text-heading-6 icon-leaf">Optimiza tus ventas</h4>
-                            <p className="text-body-excerpt color-gray-600 mt-15">Aprovecha al máximo tu negocio en línea con soluciones en la nube.</p>
-                        </div>
-                        <div className="col-lg-12 mt-50">
-                            <h4 className="text-heading-6 icon-leaf">Descubre Nuevas Funcionalidades</h4>
-                            <p className="text-body-excerpt color-gray-600 mt-15">Mantente actualizado con las últimas funciones y capacidades que la nube tiene para ofrecer.</p>
-                        </div>
-                    </div>
-                    <div className="mt-60">
-                        <Link href="/page-contact" legacyBehavior><a className="btn btn-black icon-arrow-right-white">Contáctanos</a></Link>
-                    {/*}  <Link href="/page-login" legacyBehavior><a className="btn btn-link text-heading-6">Centro de Soporte</a></Link>*/}
-                    </div>
-                </div>
-                <div className="col-lg-7">
-                <Accordion/>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </section>
+                    
                 
                     
                     
@@ -263,7 +236,7 @@
                     <div className="col-lg-12">
                 <Contacto/>
                                 </div>
-                    </section>
+                    </section> 
                     {/* Suscribete a nuestro news letter 
                     <section className="section-box overflow-visible mb-100">
                         <div className="container mt-100">
