@@ -26,7 +26,7 @@ function Index() {
                                 <div className="mt-50">
                                     <Link href="/servicios-nube" legacyBehavior>
                                         <a className="btn btn-black icon-arrow-right-white mb-15">
-                                            Conoce más de nosotros
+                                            Conoce nuestro menu
                                         </a>
                                     </Link>
                                     <Link href="/page-contact" legacyBehavior>
