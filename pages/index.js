@@ -52,15 +52,14 @@
                 <div className="container">
                 <div className="text-center">
                     <span className="tag-1 bg-6 color-green-900">
-                    Especialistas en Soluciones en la Nube
+                    Benittos
                     </span>
                     <h1 className="text-display-2 color-gray-900 mt-40">
                     <HomeBanner />
                     <HomeBanner2 />
                     </h1>
                     <div className="text-body-lead-large color-gray-500 mt-40">
-                    Descubre ahora  nuestros servicios en la nube: desde almacenamiento y desarrollo,
-                    hasta consultoría y mucho más para impulsar tu éxito.
+                   Provechito!
                     </div>
                     <div className="mt-50">
                     <Link href="/servicios-nube" legacyBehavior>
