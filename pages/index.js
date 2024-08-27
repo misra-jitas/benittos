@@ -1,29 +1,8 @@
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import Image from 'next/image';
 import Layout from "../components/layout/Layout";
 
 function Index() {
-    // State for the first blog post
-    const [firstBlogPost, setFirstBlogPost] = useState(null);
-
-    useEffect(() => {
-        // Fetch the latest blog post using Axios
-        const fetchData = async () => {
-            try {
-                const response = await axios.get('https://unanube-blog-e193372c4dad.herokuapp.com/api/vuelas?_sort=id:desc&_limit=1');
-                if (response.status === 200) {
-                    // Get the latest blog post
-                    const latestPost = response.data.data[0].attributes;
-                    setFirstBlogPost(latestPost);
-                }
-            } catch (error) {
-                console.error('Error fetching data:', error);
-            }
-        };
-
-        fetchData();
-    }, []);
-
     return (
         <>
             <Layout>
@@ -31,7 +10,7 @@ function Index() {
                     <div className="banner-hero banner-3">
                         <div className="container">
                             <div className="text-center">
-                                <img alt="benittos" src="/assets/imgs/template/logo-benittos-n.svg" style={{ width: "300px", height: "300px" }} />
+                                <Image alt="benittos" src="/assets/imgs/template/logo-benittos-n.svg" width={300} height={300} />
                                 <div className="row mt-40">
                                     <div className="col-md-6">
                                         <p className="text-body-lead-large color-gray-500">
@@ -40,14 +19,14 @@ function Index() {
                                     </div>
                                     <div className="col-md-6">
                                         <p className="text-body-lead-large color-gray-500">
-                                            Benittos Paninoteca is a culinary gem in the heart of Puerto Vallarta, renowned for its rich history and the exceptional talent behind every dish. Established with a passion for authentic flavors and artisanal craftsmanship, Benittos has become a beloved destination for locals and tourists alike. Each panini is a testament to our commitment to quality, blending traditional techniques with innovative ingredients to create a truly unique dining experience. Join us at Benittos and savor the taste of Puerto Vallarta's vibrant culinary heritage.
+                                            Benittos Paninoteca is a culinary gem in the heart of Puerto Vallarta, renowned for its rich history and the exceptional talent behind every dish. Established with a passion for authentic flavors and artisanal craftsmanship, Benittos has become a beloved destination for locals and tourists alike. Each panini is a testament to our commitment to quality, blending traditional techniques with innovative ingredients to create a truly unique dining experience. Join us at Benittos and savor the taste of Puerto Vallarta&apos;s vibrant culinary heritage.
                                         </p>
                                     </div>
                                 </div>
                                 <div className="mt-50">
                                     <Link href="/servicios-nube" legacyBehavior>
                                         <a className="btn btn-black icon-arrow-right-white mb-15">
-                                            Conoce nuestro menu
+                                            Conoce Nuestro Menu
                                         </a>
                                     </Link>
                                     <Link href="/page-contact" legacyBehavior>
