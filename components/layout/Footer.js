@@ -13,7 +13,7 @@ const Footer = () => {
                                 <Link href="/" legacyBehavior>
                                     <a>
                                         {/* <img alt="Sube.Cloud" src="/assets/imgs/template/logo.svg" /> */}
-                                        <Image src="/assets/imgs/template/logo-sube.svg" alt="Sube.Cloud" width={162} height={42}/>
+                                        <Image src="/assets/imgs/template/logo-benittos-n.svg" alt="paninotecabar puerto vallarta" width={162} height={42}/>
                                     </a>
                                 </Link>
                             </div>

@@ -20,7 +20,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                             <div className="header-logo">
                                 <Link href="/" legacyBehavior>
                                     <a className="d-flex">
-                                        {headerStyle ? <img alt="Sube.cloud" src="/assets/imgs/template/logo-sube.svg" /> : <img alt="Sube.cloud" src="/assets/imgs/template/logo-sube.svg" />}
+                                        {headerStyle ? <img alt="benittos puerto vallarta" src="/assets/imgs/template/logo-benittos-n.svg" /> : <img alt="benittos" src="/assets/imgs/template/logo-benittos-n.svg"/>}
                                     </a>
                                 </Link>
                             </div>
@@ -28,11 +28,11 @@ const Header = ({ handleOpen, headerStyle }) => {
                                 <nav className="nav-main-menu d-none d-xl-block">
                                     <ul className="main-menu">
                                         <li className="">
-                                           <Link href="/" legacyBehavior><a className="active">Sube</a></Link>
+                                           <Link href="/" legacyBehavior><a className="active">Benittos</a></Link>
                                            
                                         </li>
                                         <li className="">
-                                            <Link href="servicios-nube" legacyBehavior><a>Servicios</a></Link>
+                                            <Link href="servicios-nube" legacyBehavior><a>Menu</a></Link>
                                         </li>
                                         <li className="">
                                             <Link href="/page-contact" legacyBehavior><a>Contacto</a></Link>

@@ -31,7 +31,7 @@ const Sidebar = ({ openClass }) => {
                             <img src="/assets/imgs/template/sube_friend.png" alt="Subri.cloud" />
                             <div className="content">
                                 <h6 className="user-name">
-                                    Hola <span className="text-brand">¡Listo para subir !</span>
+                                    Benittos <span className="text-brand">¡We Create!</span>
                                 </h6>
                                 <p className="font-xs text-muted">
                                     Bienvenido
@@ -77,7 +77,7 @@ const Sidebar = ({ openClass }) => {
                                         <li className={isActive.key == 2 ? "has-children active" : ""}>
                                             <span onClick={() => handleToggle(2)} className="menu-expand"><i className="fi-rr-angle"></i></span>
 
-                                            <Link href="/servicios-nube" legacyBehavior><a>Servicios</a></Link>
+                                            <Link href="/servicios-nube" legacyBehavior><a>Menu</a></Link>
 
                                             </li>
                                         <li className={isActive.key == 2 ? "has-children active" : ""}>
@@ -224,7 +224,7 @@ const Sidebar = ({ openClass }) => {
                             </div>
                             */}
                             <div className="site-copyright color-gray-400">
-                                Copyright 2023 © Sube.Cloud -<br></br> Cloud Consulting México.<br />
+                                Copyright 2024 © Benittos -<br></br> PANINOTECABAR.<br />
                             </div>
                         </div>
                     </div>
