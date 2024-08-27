@@ -41,12 +41,6 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-md-6">
                                 <span className="color-gray-400 text-body-lead">© Benittos 2024</span>
-                                <Link href="/page-terms" legacyBehavior>
-                                    <a className="text-body-text color-gray-400 ml-50">Privacidad</a>
-                                </Link>
-                                <Link href="/page-terms" legacyBehavior>
-                                    <a className="text-body-text color-gray-400 ml-50">Terminos</a>
-                                </Link>
                             </div>
                             <div className="col-md-6 text-center text-lg-end text-md-end">
                                 <div className="footer-social">
