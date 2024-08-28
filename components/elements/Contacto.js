@@ -26,6 +26,8 @@ function Contacto() {
     data.append("email", formData.email);
     data.append("phone", formData.phone);
     data.append("message", formData.message);
+    data.append("recipient", "benittocamellou@gmail.com"); // Add the recipient email here
+
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",

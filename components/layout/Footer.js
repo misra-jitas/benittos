@@ -28,7 +28,6 @@ const Footer = () => {
                         <div className="col-lg-3 width-20 mb-30">
                             <h4 className="text-heading-5"><Link href="/page-contact" legacyBehavior><a>Contacto</a></Link></h4>
                             <div className="mt-20 text-body-text color-gray-600">+52 (322) 209-0287</div>
-                            <div className="text-body-text color-gray-600">hola@benittos.com</div>
                         </div>
                         <div className="col-lg-3 width-20 mb-30">
                             <h4 className="text-heading-5"><Link href="/" legacyBehavior><a>Inicio</a></Link></h4>
